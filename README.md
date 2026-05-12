@@ -138,27 +138,10 @@ upon reasonable request to the corresponding author.
 
 The fine-tuned model weights are available on Hugging Face:
 
-🤗 **[crojasc2/mtsk-classifier](https://huggingface.co/crojasc2/mtsk-classifier)**
+🤗 **[crojasce1/mtsk-classifier](https://huggingface.co/crojasc2/mtsk-classifier)**
 
 ---
 
-## Citation
-
-If you use this code or model in your research, please cite:
-
-```bibtex
-@article{rojas2025mtsk,
-  title   = {An Interpretable {LLM}-Based Classifier for Research Articles
-             on Mathematics Teaching Specialized Knowledge ({MTSK})},
-  author  = {Rojas Celis, Carolina and Elorreaga, Luis Miguel},
-  journal = {Applied Artificial Intelligence},
-  year    = {2025},
-  publisher = {Taylor \& Francis},
-  note    = {DOI: [to be assigned upon publication]}
-}
-```
-
----
 
 ## License
 
