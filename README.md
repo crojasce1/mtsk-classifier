@@ -132,6 +132,13 @@ is described in `docs/data_availability.md`.
 Due to copyright restrictions on article abstracts, the dataset is available
 upon reasonable request to the corresponding author.
 
+The code and experimental notebooks used in this study are openly 
+available on GitHub (https://github.com/crojasce1/mtsk-classifier) 
+and archived on Zenodo (https://doi.org/10.5281/zenodo.20148274). 
+The fine-tuned classification model is available on Hugging Face at 
+https://huggingface.co/crojasce1/mtsk-classifier. The annotated 
+dataset is available upon reasonable request to the corresponding author.
+
 ---
 
 ## Fine-tuned model
