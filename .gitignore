@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model weights (large files — hosted on Hugging Face)
+*.pt
+*.bin
+*.safetensors
+fine_tuned_model/
+
+# Data (not redistributable — available on request)
+*.xlsx
+*.csv
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Google Drive mounts
+/content/
