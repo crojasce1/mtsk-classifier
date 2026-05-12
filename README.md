@@ -155,7 +155,6 @@ If you use this code or model in your research, please cite:
 }
 ```
 
-Usé `@misc` en lugar de `@article` porque es lo correcto cuando el artículo aún no tiene DOI ni revista confirmada. Una vez te acepten, solo cambias el tipo a `@article` y agregas `journal`, `volume`, `pages` y `doi`.
 ---
 
 
