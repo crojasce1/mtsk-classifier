@@ -41,7 +41,7 @@ predictions with **SHAP** token-level attributions.
 ```
 mtsk-classifier/
 ├── notebooks/
-│   └── Experimento_13_SEED7.ipynb   # Full experiment (Experiment 13, SEED=7)
+│   └── MTSK_Classifier_Experimento13_SEED7.ipynb   # Full experiment (Experiment 13, SEED=7)
 ├── outputs/                         # Figures generated during training
 │   ├── training_curves.png
 │   ├── confusion_matrix.png
@@ -135,41 +135,32 @@ upon reasonable request to the corresponding author.
 The code and experimental notebooks used in this study are openly 
 available on GitHub (https://github.com/crojasce1/mtsk-classifier) 
 and archived on Zenodo (https://doi.org/10.5281/zenodo.20148274). 
-The fine-tuned classification model is available on Hugging Face at 
-https://huggingface.co/crojasce1/mtsk-classifier. The annotated 
-dataset is available upon reasonable request to the corresponding author.
+The annotated dataset is available upon reasonable request to the 
+corresponding author.
 
 ---
 
-## Fine-tuned model
 
-The fine-tuned model weights are available on Hugging Face:
-
-
-🤗 **[crojasce1/mtsk-classifier](https://huggingface.co/crojasc2/mtsk-classifier)**
-
+---
 ## Archive
-
-This repository is archived on Zenodo:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20148274.svg)](https://doi.org/10.5281/zenodo.20148274)
 
 ## Citation
 
-If you use this code or model in your research, please cite:
+If you use this code in your research, please cite:
 
 ```bibtex
-@misc{rojas2026mtsk,
-  title         = {An Interpretable {LLM}-Based Classifier for Research Articles
-                   on Mathematics Teaching Specialized Knowledge ({MTSK})},
-  author        = {Rojas Celis, Carolina; Elorreaga, Luz Maricel and Hortúa Hector Javier},
-  year          = {2026},
-  note          = {Preprint. Manuscript submitted for publication.},
-  howpublished  = {\url{https://github.com/crojasce1/mtsk-classifier}}
+@misc{rojas2025mtsk,
+  title        = {An Interpretable {LLM}-Based Classifier for Research Articles
+                  on Mathematics Teaching Specialized Knowledge ({MTSK})},
+  author       = {Rojas Celis, Carolina and Elorreaga, Luis Miguel},
+  year         = {2025},
+  note         = {Preprint. Manuscript submitted for publication.},
+  howpublished = {\url{https://github.com/crojasce1/mtsk-classifier}},
+  doi          = {10.5281/zenodo.20148274}
 }
 ```
-
----
 
 
 ## License
