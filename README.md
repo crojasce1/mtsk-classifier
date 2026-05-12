@@ -8,7 +8,7 @@ Code and resources for the article:
 
 > **An Interpretable LLM-Based Classifier for Research Articles on  
 > Mathematics Teaching Specialized Knowledge (MTSK)**  
-> *Applied Artificial Intelligence* — Taylor & Francis
+
 
 ---
 
