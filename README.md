@@ -117,7 +117,7 @@ pip install -r requirements.txt
 1. Upload your dataset file `DATACEROMTSK_AUMENTADO.xlsx` to Google Drive  
    under `MyDrive/TG Maestria/`.
 
-2. Open `notebooks/Experimento_13_SEED7.ipynb` in Google Colab.
+2. Open `notebooks/MTSK_Classifier_Experimento13_SEED7.ipynb` in Google Colab.
 
 3. Connect to a T4 or A100 GPU runtime.
 
@@ -140,6 +140,22 @@ The fine-tuned model weights are available on Hugging Face:
 
 🤗 **[crojasce1/mtsk-classifier](https://huggingface.co/crojasc2/mtsk-classifier)**
 
+## Citation
+
+If you use this code or model in your research, please cite:
+
+```bibtex
+@misc{rojas2026mtsk,
+  title         = {An Interpretable {LLM}-Based Classifier for Research Articles
+                   on Mathematics Teaching Specialized Knowledge ({MTSK})},
+  author        = {Rojas Celis, Carolina; Elorreaga, Luz Maricel and Hortúa Hector Javier},
+  year          = {2026},
+  note          = {Preprint. Manuscript submitted for publication.},
+  howpublished  = {\url{https://github.com/crojasce1/mtsk-classifier}}
+}
+```
+
+Usé `@misc` en lugar de `@article` porque es lo correcto cuando el artículo aún no tiene DOI ni revista confirmada. Una vez te acepten, solo cambias el tipo a `@article` y agregas `journal`, `volume`, `pages` y `doi`.
 ---
 
 
