@@ -138,7 +138,14 @@ upon reasonable request to the corresponding author.
 
 The fine-tuned model weights are available on Hugging Face:
 
+
 🤗 **[crojasce1/mtsk-classifier](https://huggingface.co/crojasc2/mtsk-classifier)**
+
+## Archive
+
+This repository is archived on Zenodo:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20148274.svg)](https://doi.org/10.5281/zenodo.20148274)
 
 ## Citation
 
