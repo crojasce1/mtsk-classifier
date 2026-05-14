@@ -154,7 +154,7 @@ If you use this code in your research, please cite:
 @misc{rojas2025mtsk,
   title        = {An Interpretable {LLM}-Based Classifier for Research Articles
                   on Mathematics Teaching Specialized Knowledge ({MTSK})},
-  author       = {Rojas Celis, Carolina and Elorreaga, Luis Miguel},
+  author       = {Rojas Celis, Carolina; Elorreaga, Luz Maricel and Hortúa, Héctor Javier},
   year         = {2025},
   note         = {Preprint. Manuscript submitted for publication.},
   howpublished = {\url{https://github.com/crojasce1/mtsk-classifier}},
