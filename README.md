@@ -39,17 +39,17 @@ This repository contains two complementary analyses of the MTSK corpus (293 tril
 
 ```
 mtsk-classifier/
-├── supervised/
-│   └── MTSK_Classifier_Experimento13_SEED7.ipynb   # Full supervised experiment (SEED=7)
 ├── unsupervised/
-│   ├── mtsk_unsupervised_clustering.ipynb           # Clustering analysis notebook
-│   ├── README.md                                    # Detailed documentation
+│   ├── mtsk_unsupervised_clustering.ipynb
+│   ├── README.md
 │   └── .gitignore
+├── MTSK_Classifier_Experimento13_SEED7.ipynb
+├── .gitignore
+├── LICENSE
+├── README.md
 ├── data_availability.md
 ├── guia_github_zenodo.md
-├── requirements.txt
-├── LICENSE
-└── README.md
+└── requirements.txt
 ```
 
 ---
@@ -120,7 +120,7 @@ Install all dependencies: `pip install -r requirements.txt`
 
 ### Supervised classifier
 1. Upload `DATACEROMTSK_AUMENTADO.xlsx` to Google Drive under `MyDrive/TG Maestria/`.
-2. Open `supervised/MTSK_Classifier_Experimento13_SEED7.ipynb` in Google Colab.
+2. Open `MTSK_Classifier_Experimento13_SEED7.ipynb` in Google Colab.
 3. Connect to a T4 or A100 GPU runtime.
 4. Run all cells in order.
 
