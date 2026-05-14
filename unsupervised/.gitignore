@@ -1,1 +1,13 @@
+# Large binary files — do not commit
+*.npy
+*.xlsx
+*.csv
 
+# Colab checkpoints
+.ipynb_checkpoints/
+
+# Generated figures (optional — remove lines below if you want to commit figures)
+seleccion_k.png
+clustering_umap2d.png
+dendrograma.png
+figura_composicion_tematica.png
