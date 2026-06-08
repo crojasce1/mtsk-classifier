@@ -31,9 +31,9 @@ Corpus (293 docs)
 → UMAP 5D (metric=cosine, for clustering)
 → HDBSCAN (min_cluster_size=5, min_samples=5)
 → UMAP 2D (for visualization only, trained independently)
----
 Note: PCA was deliberately excluded. A linear transformation would distort
 the non-linear manifold structure preserved by UMAP with cosine metric.
+
 
 ## Files
 
