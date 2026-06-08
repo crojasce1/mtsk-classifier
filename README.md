@@ -19,8 +19,10 @@ Code and resources for the article:
 This repository contains two complementary analyses of the MTSK corpus (293 trilingual research articles in Spanish, English, and Portuguese):
 
 1. **Supervised classifier** (`supervised/`) — Fine-tuned multilingual encoder (`intfloat/multilingual-e5-large`) with SHAP-based interpretability analysis.
-2. **Unsupervised clustering** (`unsupervised/`) — Exploratory semantic analysis of the corpus using SBERT embeddings, PCA, and UMAP, designed to characterize the corpus's latent thematic structure independently of the supervised classification.
-
+2. **Unsupervised clustering** (`unsupervised/`) — Exploratory semantic analysis 
+of the corpus using SBERT embeddings, UMAP (cosine metric), and HDBSCAN, 
+designed to characterize the corpus's latent thematic structure independently 
+of the supervised classification (ARI=0.047, NMI=0.111).
 ---
 
 ## Thematic categories (MTSK framework)
