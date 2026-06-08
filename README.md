@@ -82,16 +82,22 @@ Performance by category:
 
 ## Unsupervised Clustering — Key Results
 
-| Configuration | Silhouette | Dominant group composition |
-|--------------|------------|---------------------------|
-| K=3 (optimal) | 0.555 | G1→T4 (40.8%), G2→T1 (41.3%) |
-| K=5 (supervised reference) | 0.461 | G1→T4 (40.3%), G2→T1 (48.6%) |
+| Metric | Value |
+|--------|-------|
+| Groups discovered (HDBSCAN) | 7 |
+| Outliers | 59 articles (20.1%) |
+| ARI vs supervised T1–T5 | 0.047 |
+| NMI vs supervised T1–T5 | 0.111 |
 
-T1 and T4 show stable semantic cohesion across both configurations. T2, T3, and T5 distribute diffusely — consistent with SHAP interpretability findings in the supervised classifier. DBSCAN identified 12 outlier articles with peripheral or interdisciplinary content.
+T1 and T2 show higher semantic cohesion. T3 and T5 
+distribute diffusely across groups — consistent with 
+SHAP interpretability findings in the supervised 
+classifier. The low ARI confirms that T1–T5 categories 
+encode expert theoretical criteria not visible in 
+surface lexical signals.
 
-See [`unsupervised/README.md`](unsupervised/README.md) for full details.
+See `unsupervised/README.md` for full details.
 
----
 
 ## Reproducibility
 
