@@ -113,11 +113,12 @@ datasets
 ```
 
 Unsupervised requirements (pinned for reproducibility):
-```
+
 sentence-transformers==2.7.0
-umap-learn==0.5.6
-scikit-learn==1.3.2
 datasets==2.14.0
+umap-learn
+hdbscan
+scikit-learn
 ```
 
 Install all dependencies: `pip install -r requirements.txt`
