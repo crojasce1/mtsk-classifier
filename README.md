@@ -113,7 +113,7 @@ datasets
 ```
 
 Unsupervised requirements (pinned for reproducibility):
-
+```
 sentence-transformers==2.7.0
 datasets==2.14.0
 umap-learn
